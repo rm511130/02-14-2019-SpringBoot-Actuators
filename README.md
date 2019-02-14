@@ -1,19 +1,16 @@
 # PCF-Training-02-14-2019
 Interesting topics for Devs and Ops who use and/or support PCF
 
-- cf update-cli plugin
-- 
-
 # [Spring-Boot Actuators](https://docs.pivotal.io/pivotalcf/2-4/console/using-actuators.html)
 
 
 When running a Spring Boot App, do you see the Spring Boot symbol on Apps Manager?
 
+If you don't, you will by the end of this section.
+
 
 ![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/Do-you-see-this.png)
 
-
-If you don't, you will by the end of this section.
 
 **1. Let's start by cloning a demo Spring Boot App:**
 
@@ -21,7 +18,6 @@ If you don't, you will by the end of this section.
 $ cd /work                                              # my home/working directory
 $ git clone https://github.com/rm511130/spring-music
 $ cd spring-music
-$ ./gradlew clean assemble
 $ cat manifest.yml                                      # just to be acquainted with what it contains
 
 ---
@@ -104,7 +100,7 @@ SPACE AUDITOR
   
   This is important for the Spring Boot Actuators to work. If you do not have the Space Developer Role, ask your ORG manager for help.
   
-**4. Let's make sure our code has the correct lines**
+**4. Let's make sure our project has the correct configuration**
 
 ```
 $ cat build.gradle
@@ -252,7 +248,7 @@ There are no running instances of this process.
 
 **6. Log into Apps Manager and look for your Spring-Music App**
 
-You may not initially see the Spring Boot App Symbol, but you can activate the detection by hitting the Spring-Music App URL:
+You may not initially see the Spring Boot App Symbol, so you may need to "activate it" by hitting the Spring-Music App URL:
 
 ![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/SpringBootDetected.png)
 
