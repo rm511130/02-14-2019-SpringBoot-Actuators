@@ -277,6 +277,26 @@ Download and install a Heap Memory Dump Analyzer such as https://www.eclipse.org
 
 ![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/memoryAnalyzer.png)
 
+Click on "Open a Heap Dump" and open the heap*.hprof.gz file you downloaded in step (b)
+
+![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/eclipseMAT.png)
+
+- (d) View Mappings
+
+![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/Map-JVM-Metric.png)
+
+- (e) View Trace
+
+![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/View-Trace.png)
+
+- (f) View Threads
+
+![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/ViewThreads.png)
+
+- (g) View Logs and change logging levels
+
+![](https://github.com/rm511130/PCF-Training-02-14-2019/blob/master/images/LoggingLevels.png)
+
 
 
 
