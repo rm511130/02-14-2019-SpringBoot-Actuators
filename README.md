@@ -302,9 +302,10 @@ $ cf ssh spring-music -c 'ps -ef | grep buildpack | head -n 1'
 vcap          23       0  0 Feb13 ?        00:03:05 /home/vcap/app/.java-buildpack/open_jdk_jre/bin/java -agentpath:/home/vcap/app/.java-buildpack/open_jdk_jre/bin/jvmkill-1.16.0_RELEASE=printHeapHistogram=1 -Djava.io.tmpdir=/home/vcap/tmp -Djava.ext.dirs=/home/vcap/app/.java-buildpack/container_security_provider:/home/vcap/app/.java-buildpack/open_jdk_jre/lib/ext -Djava.security.properties=/home/vcap/app/.java-buildpack/java_security/java.security -Xmx407782K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=128793K -cp /home/vcap/app/. org.springframework.boot.loader.JarLauncher
 ```
 
-You can see that `-Xmx407782K` so the maximum allocatted Heap Memory is `~400MB`
+You can see that `-Xmx407782K` so the maximum Java heap size `~400MB`, i.e. the part of the memory where blocks of memory are allocated to objects and freed during garbage collection.
 
 
+## Congratulations, you have completed this training.
 
 
 
