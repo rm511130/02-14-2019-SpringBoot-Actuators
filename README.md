@@ -255,9 +255,9 @@ You may not initially see the Spring Boot App Symbol, so you may need to "activa
 
 **7. Time to investigate what Apps Manager has to offer when running Spring Boot Apps**
 
-- There's an older but very pertinent tutorial for you to peruse [here](https://content.pivotal.io/blog/using-spring-boot-actuator-integrations-with-pivotal-cloud-foundry-111).
+There's an older but very pertinent tutorial for you to peruse [here](https://content.pivotal.io/blog/using-spring-boot-actuator-integrations-with-pivotal-cloud-foundry-111).
 
-- The [Pivotal documentation on configuring Spring Boot Actuators](https://docs.pivotal.io/pivotalcf/2-4/console/spring-boot-actuators.html) also provides very interesting details.
+The [Pivotal documentation on configuring Spring Boot Actuators](https://docs.pivotal.io/pivotalcf/2-4/console/spring-boot-actuators.html) also provides very interesting details.
 
 - (a) Application Health
 
